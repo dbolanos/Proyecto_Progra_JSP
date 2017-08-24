@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <Page
+      id="Page2">
+      <property
+         name="wildcard">false</property>
+      <property
+         name="y">264.1494</property>
+      <property
+         name="x">238.68262</property>
+      <property
+         name="jspName">/ingreso.jsp</property>
+   </Page>
+   <Page
+      id="Page3">
+      <property
+         name="wildcard">false</property>
+      <property
+         name="y">263.44824</property>
+      <property
+         name="x">463.34863</property>
+      <property
+         name="jspName">/principal.jsp</property>
+   </Page>
+   <NavigationCase
+      islink="true"
+      id="NavigationCase4"
+      from="Page2"
+      to="Page2">
+      <property
+         name="fromOutcome">error</property>
+      <property
+         name="description">Navigation Case</property>
+      <property
+         name="sdm:polyPoints">T44,235.18262,209.79883,242.18262,209.79883,T56</property>
+   </NavigationCase>
+   <NavigationCase
+      islink="true"
+      id="NavigationCase5"
+      from="Page2"
+      to="Page3">
+      <property
+         name="fromOutcome">continue</property>
+      <property
+         name="description">Navigation Case</property>
+      <property
+         name="sdm:polyPoints">R50,279.68262,263.79883,422.34863,263.09766,L50</property>
+   </NavigationCase>
+</SDM>

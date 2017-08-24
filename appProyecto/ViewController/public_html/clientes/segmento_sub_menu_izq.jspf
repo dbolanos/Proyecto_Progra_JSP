@@ -1,0 +1,21 @@
+<div class="container text-center">
+    <div class="row content">
+        <div class="col-md-2 sidenav text-left">
+            <div class="panel panel-default">
+                <div class="panel-heading">Opciones</div>
+                <div class="panel-body">
+                    <p>
+                        <a href="${pageContext.request.contextPath}/faces/clientes/registro.jsp">
+                            <span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+                    </p>
+                    <p>
+                        <a href="${pageContext.request.contextPath}/faces/clientes/buscar.jsp">
+                            <span class="glyphicon glyphicon-search"></span> Buscar</a>
+                    </p>
+                    <p>
+                        <a href="#" data-toggle="modal" data-target="#modalAyuda">
+                            <span class="glyphicon glyphicon-question-sign"></span> Ayuda</a>
+                    </p>
+                </div>
+            </div>
+        </div>

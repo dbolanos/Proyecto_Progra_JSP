@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<faces-config version="2.0" xmlns="http://java.sun.com/xml/ns/javaee">
+  <navigation-rule>
+    <from-view-id>/ingreso.jsp</from-view-id>
+    <navigation-case>
+      <from-outcome>error</from-outcome>
+      <to-view-id>/ingreso.jsp</to-view-id>
+    </navigation-case>
+    <navigation-case>
+      <from-outcome>continue</from-outcome>
+      <to-view-id>/principal.jsp</to-view-id>
+    </navigation-case>
+  </navigation-rule>
+  <managed-bean>
+    <managed-bean-name>BeanInicioSesion</managed-bean-name>
+    <managed-bean-class>Beans.BeanInicioSesion</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>BeanServicio</managed-bean-name>
+    <managed-bean-class>Beans.BeanServicio</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>BeanCliente</managed-bean-name>
+    <managed-bean-class>Beans.BeanCliente</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  <managed-bean>
+    <managed-bean-name>BeanOrden</managed-bean-name>
+    <managed-bean-class>Beans.BeanOrden</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+</faces-config>

@@ -1,0 +1,60 @@
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+             
+            <a class="navbar-brand" href="${pageContext.request.contextPath}/faces/principal.jsp">
+                <img src="${pageContext.request.contextPath}/resources/img/sise_logo.png" alt="SISE" width="60px"></img></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="${pageContext.request.contextPath}/faces/servicios/registro.jsp">
+                        <span class="glyphicon glyphicon-briefcase"></span> Servicios</a>
+                </li>
+                 
+                <li>
+                    <a href="${pageContext.request.contextPath}/faces/clientes/registro.jsp">
+                        <span class="glyphicon glyphicon-user"></span> Clientes</a>
+                </li>
+                 
+                <li>
+                    <a href="${pageContext.request.contextPath}/faces/ordenes/registro.jsp">
+                        <span class="glyphicon glyphicon-calendar"></span> Ordenes</a>
+                </li>
+                 
+                <li>
+                    <a href="${pageContext.request.contextPath}/faces/facturas/facturacion.jsp">
+                        <span class="glyphicon glyphicon-usd"></span> Facturacion</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        <span class="glyphicon glyphicon-user"></span> <h:outputText value="#{usuario.nombre}"/></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-cog"></span> Configuracion</a>
+                        </li>
+                         
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-globe"></span> Administracion</a>
+                        </li>
+                         
+                        <li role="separator" class="divider"></li>
+                         
+                        <li>
+                            <a href="${pageContext.request.contextPath}/faces/ingreso.jsp">
+                                <span class="glyphicon glyphicon-log-out"></span> Salir</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

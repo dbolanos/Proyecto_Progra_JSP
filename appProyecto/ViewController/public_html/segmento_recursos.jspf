@@ -1,0 +1,15 @@
+ <!-- Material Design fonts -->    
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700"></link>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons"></link>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"></link>
+-<!-- Bootstrap Material Design -->		
+ -<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap-material-design.min.css"></link>		
+ -<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/ripples.min.css"></link>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css"></link>
+<!-- Scripts -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/material.min.js"></script>		
+ -<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/ripples.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/main.js"></script>
